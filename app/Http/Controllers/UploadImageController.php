@@ -32,6 +32,10 @@ class UploadImageController extends Controller
         return view('show', compact('photo'))->with('status', 'Image Has been uploaded');
     }
 
+    public function FunctionName(Type $var = null)
+    {
+        # code...
+    }
     public function show() 
     {
         $photo = Photo::find(8);
