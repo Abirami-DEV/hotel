@@ -38,8 +38,6 @@ class UploadImageController extends Controller
     }
     public function show() 
     {
-        //kjhgkjbk,
-
         $photo = Photo::find(8);
         return view('show', compact('photo'));
     }
